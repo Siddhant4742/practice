@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-with open("text_3.html", "r", encoding="utf-8") as f:
+with open("text_1.html", "r", encoding="utf-8") as f:
     soup = BeautifulSoup(f, "html.parser")
 
 def print_dom_tree(element, indent=0):
